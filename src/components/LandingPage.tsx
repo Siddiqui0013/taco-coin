@@ -9,8 +9,10 @@ import Footer from "./Footer"
 
 export default function LandingPage() {
   return (
-    <div>
+    <div className="relative">
+        <div className="absolute md:relative top-0 right-2 z-50">
         <Navbar />
+        </div>
         <Hero />
         <Divider />
         <About/>
@@ -23,4 +25,4 @@ export default function LandingPage() {
         <Footer />
     </div>
   )
-}
+} 

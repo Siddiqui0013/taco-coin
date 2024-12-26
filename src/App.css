@@ -5,7 +5,7 @@
 #root {
   background-color: #F9F8A8; 
   font-family: "Lemon", serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .poppins{

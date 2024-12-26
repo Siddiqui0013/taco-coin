@@ -36,19 +36,19 @@ export default function RoadMap() {
 
   return (
     <div className="flex flex-col items-center justify-center gap-4 mt-16 mb-8 p-4">
-      <h1 className="text-[96px] text-[#66BB6A]">Roadmap</h1>
+      <h1 className="md:text-[96px] text-[60px] text-[#66BB6A]">Roadmap</h1>
       <div className="boxes w-full flex flex-col gap-6 justify-center items-center">
         {
             RoadMap.map((value)=>{
                 return (
-                    <div className="box min-h-[224px] rounded-2xl border-black border-4 bg-[#FFA764] w-[80%] flex justify-center items-center gap-4">
-                        <img src={RoadMapImage} alt="roadmap" className="h-[80%] w-[25%]" />
-                        <div className="detail w-[70%]">
-                            <h1 className="text-[24px] mb-8">{ value.title }</h1>
+                    <div className="box md:min-h-[224px] rounded-2xl border-black border-4 bg-[#FFA764] md:w-[80%] w-[90%] flex justify-center items-center gap-4">
+                        <img src={RoadMapImage} alt="roadmap" className="hidden md:block h-[80%] w-[25%]" />
+                        <div className="detail md:w-[70%] w-[80%] p-2">
+                            <h1 className="md:text-[24px] text-[22px] md:mb-8 mb-4">{ value.title }</h1>
                             <ol>
                                 {
                                     value.features.map((feature)=>{
-                                        return <li className="text-[16px] list-disc">{ feature }</li>
+                                        return <li className="md:text-[16px] text-[14px] list-disc">{ feature }</li>
                                     })
                                 }
                             </ol>
