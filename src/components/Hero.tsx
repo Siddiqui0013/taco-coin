@@ -46,7 +46,7 @@ export default function Hero() {
         
         <div className="justify-center hidden md:flex items-start mx-8 w-[40%] relative">
             <img src={hero} width={500} alt="taco" />
-            <button className="absolute -rotate-45 top-8 left-0 h-16 w-52 mt-8 px-4 bg-[#FFA726] text-black rounded-2xl border-black border-4">Spicy Taco</button>
+            <button className="absolute -rotate-[35deg] top-8 left-10 h-16 w-52 mt-8 px-4 bg-[#FFA726] text-black rounded-2xl border-black border-4">Spicy Taco</button>
         </div>
     </div>
     </>
