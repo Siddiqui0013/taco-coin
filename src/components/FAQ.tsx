@@ -21,9 +21,9 @@ export default function FAQ() {
     const [selected, setSelected] = useState<number | null>(null)
 
   return (
-    <div className="my-12">
-                <h1 className="md:text-[96px] text-[60px] text-center text-[#66BB6A]">FAQ</h1>
-                <div className="flex items-end justify-center mx-auto px-8 gap-4 py-8 w-full">
+    <div className="">
+                <h1 className="md:text-[96px] text-[60px] text-center text-[#66BB6A] mt-4">FAQ</h1>
+                <div className="flex items-end justify-center mx-auto px-8 gap-4  w-full">
         <div className="box1 md:w-[50%] w-[90%] ">
             {
                 FAQs.map((faq, index) => {
