@@ -18,7 +18,7 @@ export default function Navbar() {
   ];
 
   const controlNavbar = () => {
-    if (window.scrollY > lastScrollY) {
+    if (window.scrollY > 0) {
       setShow(false);
     } else {
       setShow(true);

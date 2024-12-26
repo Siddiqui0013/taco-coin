@@ -23,7 +23,7 @@ export default function FAQ() {
   return (
     <div className="flex items-center justify-center mx-auto px-8 gap-4 py-8 w-full">
         <div className="box1 md:w-[70%] w-[90%] ">
-            <h1 className="md:text-[96px] text-[60px] text-[#66BB6A] md:mb-20 mb-8">FAQ</h1>
+            <h1 className="md:text-[96px] text-[60px] md:text-start text-center text-[#66BB6A] md:mb-20 mb-8">FAQ</h1>
             {
                 FAQs.map((faq, index) => {
                     return (
