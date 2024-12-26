@@ -17,11 +17,11 @@ export default function LandingPage() {
       <Divider />
       <div id="about"><About /></div>
       <Divider />
-      <div id="tokenomics"><Tokenomics /></div>
+      <div id="tokenomics" className="mb-20"><Tokenomics /></div>
       <Divider />
-      <div id="roadmap"><RoadMap /></div>
+      <div id="roadmap" className="mb-20"><RoadMap /></div>
       <Divider />
-      <div id="faq"><FAQ /></div>
+      <div id="faq" className="mb-20"><FAQ /></div>
       <Footer />
     </div>
   )

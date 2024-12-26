@@ -2,11 +2,11 @@ import FooterImg from '../assets/Footer.png';
 
 export default function Footer() {
   return (
-    <div className="bg-[#FFB850] flex items-center justify-center w-full px-4 py-8">
+    <div className="bg-[#FFB850] flex items-center justify-around w-full md:px-20 px-4 py-8">
       <div className="md:w-[40%] hidden md:block">
       <img src={FooterImg} alt="Footer" className="w-[400px] object-cover rounded-lg" />
       </div>
-        <div className="md:w-[55%] w-[90%] text-center">
+        <div className="md:w-[50%] w-[90%] text-center">
             <h1 className="text-[#66BB6A] md:text-[96px] text-[50px]">Taco Coin</h1>
             <p className="text-white md:text-[40px] text-[24px] mt-4">
               Taco is a decentralized finance (DeFi) token that aims to provide a decentralized platform for users to earn passive income.</p>

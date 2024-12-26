@@ -47,7 +47,7 @@ export default function Navbar() {
         <div className="hidden md:block">
           <img src={Logo} width={90} alt="" />
         </div>
-        <ul className="hidden md:flex justify-between w-[60%] mx-auto items-center text-2xl">
+        <ul className="hidden md:flex justify-around w-[60%] mx-auto items-center text-2xl">
           {menuItems.map((item) => (
             <li
               key={item.id}

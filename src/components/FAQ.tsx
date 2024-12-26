@@ -21,9 +21,10 @@ export default function FAQ() {
     const [selected, setSelected] = useState<number | null>(null)
 
   return (
-    <div className="flex items-center justify-center mx-auto px-8 gap-4 py-8 w-full">
-        <div className="box1 md:w-[70%] w-[90%] ">
-            <h1 className="md:text-[96px] text-[60px] md:text-start text-center text-[#66BB6A] md:mb-20 mb-8">FAQ</h1>
+    <div className="my-12">
+                <h1 className="md:text-[96px] text-[60px] text-center text-[#66BB6A]">FAQ</h1>
+                <div className="flex items-end justify-center mx-auto px-8 gap-4 py-8 w-full">
+        <div className="box1 md:w-[50%] w-[90%] ">
             {
                 FAQs.map((faq, index) => {
                     return (
@@ -38,9 +39,11 @@ export default function FAQ() {
                 })
             }
         </div>
-        <div className="box2 md:block hidden">
+        <div className="box2 mb-4 md:block hidden">
             <img src={FAQImg} alt="FAQ" className="w-[400px] h-[400px] object-cover rounded-lg" />
         </div>
+    </div>
+
     </div>
   )
 }
