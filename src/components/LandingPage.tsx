@@ -10,19 +10,19 @@ import Footer from "./Footer"
 export default function LandingPage() {
   return (
     <div className="relative">
-        <div className="absolute md:relative top-0 right-2 z-50">
+      <div className="absolute md:relative top-0 right-2 z-50">
         <Navbar />
-        </div>
-        <Hero />
-        <Divider />
-        <About/>
-        <Divider />
-        <Tokenomics />
-        <Divider />
-        <RoadMap />
-        <Divider />
-        <FAQ />
-        <Footer />
+      </div>
+      <div id="home"><Hero /></div>
+      <Divider />
+      <div id="about"><About /></div>
+      <Divider />
+      <div id="tokenomics"><Tokenomics /></div>
+      <Divider />
+      <div id="roadmap"><RoadMap /></div>
+      <Divider />
+      <div id="faq"><FAQ /></div>
+      <Footer />
     </div>
   )
-} 
+}
